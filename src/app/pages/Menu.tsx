@@ -286,8 +286,55 @@ const planchestapas = [
   { label: "Planche 6 personnes", price: "19€", icon: "🥂" },
 ];
 
+// Groupes de filtres
+type FilterKey =
+  | "all"
+  | "entrees"
+  | "plats"
+  | "pizzas"
+  | "burgers"
+  | "pates"
+  | "desserts"
+  | "boissons";
+
+const FILTERS: { key: FilterKey; label: string }[] = [
+  { key: "all", label: "Tout voir" },
+  { key: "entrees", label: "Entrées" },
+  { key: "plats", label: "Plats" },
+  { key: "pizzas", label: "Pizzas" },
+  { key: "burgers", label: "Burgers" },
+  { key: "pates", label: "Pâtes" },
+  { key: "desserts", label: "Desserts" },
+  { key: "boissons", label: "Boissons" },
+];
+
+const CATEGORY_FILTER_MAP: Record<string, FilterKey> = {
+  "Nos Entrées": "entrees",
+  "Nos Plats": "plats",
+  "Nos Pizzas": "pizzas",
+  "Nos Burgers": "burgers",
+  "Nos Tagliatelles": "pates",
+  "Nos Linguines": "pates",
+  "Portion de frites": "plats",
+  "Nos Gaufres Maison": "desserts",
+  "Nos Coupes Glacées": "desserts",
+  "Nos Coupes Alcoolisées": "boissons",
+  "Nos Desserts Maison": "desserts",
+  "Nos Crêpes Maison": "desserts",
+  "Les Cocktails": "boissons",
+  "Sangria Maison": "boissons",
+};
+
 export function Menu() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [activeFilter, setActiveFilter] = useState<FilterKey>("all");
+
+  const filteredCategories =
+    activeFilter === "all"
+      ? menuCategories
+      : menuCategories.filter(
+          (cat) => CATEGORY_FILTER_MAP[cat.category] === activeFilter
+        );
 
   return (
     <>
@@ -412,8 +459,29 @@ export function Menu() {
             </div>
           </ScrollReveal>
 
+          {/* ── FILTRES CLIQUABLES ── */}
+          <ScrollReveal>
+            <div className="mb-8 md:mb-10">
+              <div className="flex flex-wrap justify-center gap-2 md:gap-3">
+                {FILTERS.map((filter) => (
+                  <button
+                    key={filter.key}
+                    onClick={() => setActiveFilter(filter.key)}
+                    className={`px-4 py-2 rounded-full text-sm font-medium border transition-all duration-200 ${
+                      activeFilter === filter.key
+                        ? "bg-accent text-white border-accent shadow-md shadow-accent/20"
+                        : "bg-white text-primary border-border/50 hover:border-accent/50 hover:text-accent"
+                    }`}
+                  >
+                    {filter.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </ScrollReveal>
+
           {/* Standard menu categories */}
-          {menuCategories.map((category, i) => (
+          {filteredCategories.map((category, i) => (
             <ScrollReveal key={i} delay={40}>
               <div className="mb-12 md:mb-16 last:mb-0">
                 <div className="text-center mb-6 md:mb-8">
