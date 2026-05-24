@@ -1,0 +1,46 @@
+/* Phone pulse animation for floating call button */
+@keyframes phonePulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  70% { transform: scale(2.2); opacity: 0; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* Elegant section divider */
+.section-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 auto 1.5rem;
+}
+.section-ornament::before,
+.section-ornament::after {
+  content: '';
+  flex: 1;
+  max-width: 80px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--accent));
+  opacity: 0.5;
+}
+.section-ornament::after {
+  background: linear-gradient(to left, transparent, var(--accent));
+}
+
+/* Premium card hover */
+.card-premium {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card-premium:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px -10px rgba(0, 0, 0, 0.12);
+}
+
+/* Rich text SEO content */
+.seo-prose strong {
+  color: var(--foreground);
+  font-weight: 600;
+}
+.seo-prose em {
+  font-style: italic;
+  color: var(--muted-foreground);
+}
