@@ -178,7 +178,7 @@ export function Home() {
             <div className="text-center mb-8 md:mb-10">
               <p className="text-[10px] tracking-[0.3em] uppercase text-accent mb-3 font-medium">Au cœur de Narbonne</p>
               <h2 className="text-2xl md:text-4xl font-serif text-primary mb-4">
-                Le Quai — <strong>Meilleur Restaurant Narbonne</strong><br className="hidden md:block" />
+                Le Quai — <strong>Meilleur Restaurant Narbonne </strong><br className="hidden md:block" />
                 <em>Canal de la Robine · Cuisine Méditerranéenne</em>
               </h2>
               <div className="section-ornament">
