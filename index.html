@@ -1,16 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
 
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Le Quai</title>
-      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
-    </head>
+<head>
+  <!-- Base -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <body>
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-    </body>
-  </html>
-  
+  <!-- SEO Principal -->
+  <title>Restaurant Narbonne Centre | Quai de la Robine | Le Quai</title>
+
+  <meta
+    name="description"
+    content="Le Quai, restaurant à Narbonne centre-ville situé sur le Quai de la Robine. Cuisine maison, produits frais, poissons, viandes et tapas. Terrasse au bord du canal. Une des meilleures adresses de Narbonne."
+  />
+
+  <meta
+    name="keywords"
+    content="restaurant narbonne, restaurant narbonne centre, restaurant quai de la robine, meilleur restaurant narbonne, restaurant narbonne terrasse, cuisine maison narbonne, tapas narbonne, restaurant canal narbonne"
+  />
+
+  <meta name="author" content="Le Quai Narbonne" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="language" content="fr" />
+
+  <!-- GEO -->
+  <meta name="geo.region" content="FR-11" />
+  <meta name="geo.placename" content="Narbonne" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://restaurant-narbonne-le-quai.vercel.app/" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="Le Quai Narbonne" />
+
+  <meta property="og:url" content="https://restaurant-narbonne-le-quai.vercel.app/" />
+
+  <meta property="og:title" content="Restaurant Narbonne Centre | Le Quai - Quai de la Robine" />
+
+  <meta property="og:description" content="Restaurant à Narbonne sur le Quai de la Robine. Cuisine maison, terrasse au bord du canal." />
+
+  <meta property="og:image" content="https://restaurant-narbonne-le-quai.vercel.app/og-image.jpg" />
+
+  <meta property="og:image:alt" content="Le Quai Narbonne restaurant terrasse canal de la Robine" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Restaurant Narbonne Centre | Le Quai" />
+  <meta name="twitter:description" content="Cuisine maison, terrasse sur le canal de la Robine à Narbonne." />
+  <meta name="twitter:image" content="https://restaurant-narbonne-le-quai.vercel.app/og-image.jpg" />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#3AB4B1" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Le Quai",
+    "url": "https://restaurant-narbonne-le-quai.vercel.app/",
+    "servesCuisine": "Cuisine française, méditerranéenne",
+    "description": "Restaurant à Narbonne centre-ville sur le Quai de la Robine, cuisine maison et terrasse au bord du canal.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Narbonne",
+      "addressRegion": "Occitanie",
+      "addressCountry": "FR"
+    },
+    "areaServed": "Narbonne",
+    "priceRange": "€€"
+  }
+  </script>
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #root {
+      height: 100%;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
