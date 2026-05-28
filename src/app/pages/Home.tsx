@@ -106,7 +106,7 @@ export function Home() {
           <img
             src={heroImage}
             alt="Restaurant Le Quai Narbonne bord canal du Midi cuisine méditerranéenne terrasse"
-            className="w-full h-full object-cover [object-position:67%_center] md:object-center"
+            className="w-full h-full object-cover [object-position:70%_center] md:object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20" />
         </div>
