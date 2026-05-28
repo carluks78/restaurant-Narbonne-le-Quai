@@ -101,12 +101,12 @@ export function Home() {
       />
 
       {/* Hero — H1 jamais caché au scroll */}
-      <section ref={heroRef} className="relative h-[92vh] flex items-end justify-center overflow-hidden pb-16 md:pb-24">
+      <section ref={heroRef} className="relative h-[92svh] flex items-end justify-center overflow-hidden pb-16 md:pb-24"
         <div ref={imageRef} className="absolute inset-0 scale-110">
           <img
             src={heroImage}
             alt="Restaurant Le Quai Narbonne bord canal du Midi cuisine méditerranéenne terrasse"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center md:object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20" />
         </div>
