@@ -5,7 +5,7 @@ import { ScrollReveal } from "../components/ScrollReveal";
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import heroImage from "../../imports/hero.png";
+import heroImage from "../../imports/hero.jpg";
 import entrecoteImage from "../../imports/entrecote.jpg";
 import brochetteImage from "../../imports/brochette.jpg";
 import pizzaImage from "../../imports/pizza.jpg";
