@@ -140,7 +140,7 @@ const menuCategories: MenuCategory[] = [
     dishes: [
       { name: "Steack à cheval", price: "14€", popular: true },
       { name: "Brochette de poulet mariné", price: "15€" },
-      { name: "Brochette grillée à la plancha", description: "Sauce à l'échalotte", price: "18€" },
+      { name: "Bavette grillée à la plancha", description: "Sauce à l'échalotte", price: "18€" },
       { name: "Tournedos Rossini de faux-filet", description: "Faux-filet entouré de lard et sa sauce aux cèpes", price: "22€", popular: true },
       { name: "Escalope de dinde à la crème", price: "16€" },
       { name: "Escalope de dinde pannée", description: "Sauce tomate maison", price: "15€" },
