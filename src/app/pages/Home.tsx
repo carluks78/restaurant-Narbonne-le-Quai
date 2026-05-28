@@ -473,7 +473,7 @@ export function Home() {
               </Link>
             </div>
             <p className="text-xs text-white/30 mt-8">
-              12 Quai Vallière · 11100 Narbonne · Ouvert 7j/7 dès 09:00
+              12 Quai Vallière · 11100 Narbonne · Ouvert du Lundi au Samedi de 09:00 à 14:00 et de 19:30 à 22:00 sauf le Mercredi Fermé et le dimanche de 10:00 à 14:00
             </p>
           </ScrollReveal>
         </div>
