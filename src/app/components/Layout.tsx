@@ -283,8 +283,11 @@ export function Layout() {
                 <div className="flex items-start gap-3">
                   <Clock className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
                   <div className="text-sm text-white/55">
-                    <p>Ouvert 7j/7</p>
-                    <p>09h00 – 23h00</p>
+                    <p>Ouvert du Lundi au Samedi</p>
+                    <p>de 09h00 à 14h00</p>
+                    <p>de 19h30 à 22h00</p>
+                    <p>Mercredi – Fermé</p>
+                    <p>Dimanche de 10h00 à 14h00</p>
                   </div>
                 </div>
                 <a
