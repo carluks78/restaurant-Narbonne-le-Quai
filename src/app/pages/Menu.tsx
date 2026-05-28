@@ -56,7 +56,7 @@ const prixFixeMenus = [
     courses: [
       {
         label: "Entrée au choix",
-        items: ["Salade chèvre chaud", "César", "Saumon fumé"],
+        items: ["Salade périgourdine", "Salade de la mer", "Foie gras maison"],
       },
       {
         label: "Plat au choix",
@@ -88,11 +88,11 @@ const prixFixeMenus = [
 
 const parfumsGlaces = {
   glaces: [
-    "Vanille", "Chocolat", "Caramel beurre salé", "Pistache", "Fraise",
-    "Café", "Nougat", "Noix de coco", "Marron", "Praliné", "Citron",
+    "Vanille", "Chocolat-Menthe", "Chocolat", "Caramel beurre salé", "Pistache", "Fraise",
+    "Café", "Rhum-Raisin", "Noix de coco", "Marron", "Vanille Framboise meringuée",
   ],
   sorbets: [
-    "Citron", "Framboise", "Mangue", "Fraise", "Cassis", "Passion",
+    "Citron", "Pêche de Méditérranée", "Mangue", "Fruit de la Passion",
   ],
   pricing: [
     { label: "2 boules", price: "3.50€" },
@@ -143,12 +143,20 @@ const menuCategories: MenuCategory[] = [
       { name: "Brochette grillée à la plancha", description: "Sauce à l'échalotte", price: "18€" },
       { name: "Tournedos Rossini de faux-filet", description: "Faux-filet entouré de lard et sa sauce aux cèpes", price: "22€", popular: true },
       { name: "Escalope de dinde à la crème", price: "16€" },
-      { name: "Escalope de dinde pannée ", description: "Sauce tomate maison", price: "15€" },
+      { name: "Escalope de dinde pannée", description: "Sauce tomate maison", price: "15€" },
       { name: "Tartare de boeuf", description: "Poêlé ou préparé", price: "Simple 16€ / Double 29€" },
       { name: "Entrecôte grillée", price: "26€" },
       { name: "Brochette de magret de canard", price: "18€" },
       { name: "Magret de canard entier", price: "26€" },
       { name: "Magret de canard entier farci au foie gras et sa sauce aux cèpes", price: "30€" },
+      { name: "Pavé de saumon et sa crème de poireaux", price: "19€" },
+      { name: "Seiches grillées à la plancha", price: "18€" },
+      { name: "Tartare de saumon frais", price: "19€" },
+      { name: "Seiches à la Valenciane", description: "Sauce tomate, chorizo, crevettes, moules", price: "19€" },
+      { name: "Gambas flambées", price: "20€" },
+      { name: "Poêlée de St-Jacques", description: "Crevettes et Moules", price: "22€" },
+      { name: "Assiette du Quai", description: "Tartare de saumon frais, pavé de saumon grillé et noix de St-Jacques", price: "25€" },
+      { name: "Parillade de poisson", price: "30€" },
     ],
   },
   {
