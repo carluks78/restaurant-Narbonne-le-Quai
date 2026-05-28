@@ -101,7 +101,7 @@ export function Home() {
       />
 
       {/* Hero — H1 jamais caché au scroll */}
-      <section ref={heroRef} className="relative h-[92svh] flex items-end justify-center overflow-hidden pb-16 md:pb-24"
+      <section ref={heroRef} className="relative h-[92svh] flex items-end justify-center overflow-hidden pb-16 md:pb-24">
         <div ref={imageRef} className="absolute inset-0 scale-110">
           <img
             src={heroImage}
