@@ -32,15 +32,11 @@ const faqs = [
   },
   {
     q: "Où manger en bord de canal à Narbonne ?",
-    a: "Le restaurant Le Quai est situé au 12 Quai Vallière, directement en bord du canal de la Robine. Notre terrasse offre une vue panoramique unique sur le quai.",
-  },
-  {
-    q: "Quel restaurant pour fruits de mer à Narbonne ?",
-    a: "Le Quai est spécialisé en poissons frais et fruits de mer de Méditerranée : gambas, Saint-Jacques, calamars, moules, daurade, loup. Pêche du marché quotidien.",
+    a: "Le restaurant Le Quai est situé au 12 Quai Vallière, directement en bord du canal de la Robine. Notre terrasse offre une vue panoramique unique sur la Cathédrale.",
   },
   {
     q: "Le restaurant est-il ouvert tous les jours ?",
-    a: "Oui, Le Quai est ouvert 7 jours sur 7 dès 09h00. Nous servons le petit-déjeuner, le déjeuner et le dîner. Réservation recommandée le week-end.",
+    a: "Oui, Le Quai est ouvert du Lundi au Samedi de 9:00 à 14:00 et de 19:30 à 22:00, sauf le Mercredi - Fermé et le Dimanche midi de 10:00 à 14:00 . Nous servons le petit-déjeuner, le déjeuner et le dîner. Réservation recommandée le week-end.",
   },
   {
     q: "Le restaurant diffuse-t-il les matchs de rugby ?",
