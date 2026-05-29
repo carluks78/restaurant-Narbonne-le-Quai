@@ -8,7 +8,7 @@ import { useState } from "react";
 const faqs = [
   {
     q: "Où se garer pour venir au restaurant ?",
-    a: "Le parking du Cinéma Le Colisée est à 200m (gratuit après 19h). Le parking Centre-ville est à 400m. En soirée, des places gratuites sont disponibles le long du quai.",
+    a: "Le parking à coté. Le parking Centre-ville est à 400m. En soirée, des places gratuites sont disponibles le long du quai.",
   },
   {
     q: "Le restaurant est-il accessible en transports en commun ?",
@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "Acceptez-vous les réservations de groupe ?",
-    a: "Oui, nous accueillons des groupes jusqu'à 30 personnes, avec possibilité de privatisation. Contactez-nous par téléphone ou email pour organiser votre événement (anniversaire, séminaire, soirée match).",
+    a: "Oui, nous accueillons des groupes jusqu'à 50 personnes, avec possibilité de privatisation. Contactez-nous par téléphone ou email pour organiser votre événement (anniversaire, séminaire, soirée match).",
   },
   {
     q: "Le restaurant est-il accessible aux personnes à mobilité réduite ?",
@@ -59,12 +59,6 @@ const pois = [
     link: "https://maps.google.com/?q=Canal+de+la+Robine+Narbonne",
     emoji: "🌊",
   },
-  {
-    name: "Parking Cinéma Le Colisée",
-    distance: "2 min à pied",
-    link: "https://maps.google.com/?q=Cinéma+Le+Colisée+Narbonne",
-    emoji: "🅿️",
-  },
 ];
 
 export function Contact() {
@@ -74,9 +68,9 @@ export function Contact() {
     <>
       <SEO
         title="Contact & Accès Restaurant Le Quai Narbonne | 04 68 90 62 42 · 12 Quai Vallière"
-        description="Contactez le restaurant Le Quai à Narbonne : 04 68 90 62 42 · 12 Quai Vallière, 11100 Narbonne. Ouvert 7j/7 dès 09h00. Accès facile depuis le centre-ville, parking public à proximité."
+        description="Contactez le restaurant Le Quai à Narbonne : 04 68 90 62 42 · 12 Quai Vallière, 11100 Narbonne. Accès facile depuis le centre-ville, parking public à proximité."
         path="/contact"
-        keywords="contact restaurant Narbonne, adresse restaurant Narbonne, téléphone restaurant Narbonne, restaurant Quai Vallière Narbonne, accès parking restaurant Narbonne, réservation téléphone Narbonne, horaires restaurant Narbonne"
+        keywords="contact restaurant Narbonne, adresse restaurant Narbonne, téléphone restaurant Narbonne, restaurant Quai Vallière Narbonne, accès parking restaurant Narbonne, réservation téléphone Narbonne"
         additionalSchemas={[buildFAQSchema(faqs)]}
       />
 
@@ -135,8 +129,8 @@ export function Contact() {
                     title: "Horaires",
                     content: (
                       <div className="text-sm md:text-base text-muted-foreground">
-                        <p><strong>Lundi — Dimanche</strong></p>
-                        <p className="text-base md:text-lg font-medium text-accent mt-1">09:00 — 23:00</p>
+                        <p><strong>Lundi — Samdei</strong></p>
+                        <p className="text-base md:text-lg font-medium text-accent mt-1">09:30 — 14:00, Mercredi - Fermé, Dimanche 10:00 - 14:00, Service du soir fermé le dimanche</p>
                         <p className="text-xs md:text-sm mt-2">Service continu · Ouvert 7j/7</p>
                       </div>
                     ),
@@ -170,11 +164,11 @@ export function Contact() {
                   </h3>
                   <ul className="space-y-2 text-xs md:text-sm text-muted-foreground">
                     {[
-                      "Terrasse chauffée toute l'année",
+                      "Terrasse vue sur la Cathédrale",
                       "Accès handicapé PMR",
-                      "Parking public à 200m (Cinéma Colisée)",
+                      "Parking public à côté",
                       "Options végétariennes &amp; informations allergènes",
-                      "Carte bancaire &amp; espèces acceptées",
+                      "Carte bancaire &amp; espèces acceptées; Chèques Vacances et Ticket restaurant en papier et en dématérialiser;  ",
                       "Wi-Fi gratuit pour les clients",
                       "Diffusion matchs rugby RC Narbonne 🏉",
                     ].map((item, i) => (
@@ -213,7 +207,7 @@ export function Contact() {
                   </h3>
                   <div className="space-y-3 text-sm md:text-base text-muted-foreground">
                     {[
-                      { emoji: "🚗", label: "En voiture", text: "Parking Cinéma Le Colisée à 200m (gratuit après 19h) · Parking Centre-ville à 400m" },
+                      { emoji: "🚗", label: "En voiture", text: "Parking à côté (gratuit après 19h) · Parking Centre-ville à 400m" },
                       { emoji: "🚂", label: "En train", text: "Gare SNCF Narbonne à 15 min à pied · Ligne TGV Paris-Barcelone directe" },
                       { emoji: "🚌", label: "En bus", text: "Lignes 1 et 3 Citibus, arrêt Quai Vallière" },
                       { emoji: "🚶", label: "À pied", text: "5 min des Halles · 10 min Cathédrale Saint-Just" },
@@ -289,7 +283,7 @@ export function Contact() {
                 Une <strong>Question</strong> ? Nous sommes là
               </h2>
               <p className="text-sm md:text-base text-primary-foreground/80 mb-6 max-w-2xl mx-auto">
-                Notre équipe est à votre disposition pour toute demande de réservation de groupe (jusqu'à 30 personnes),
+                Notre équipe est à votre disposition pour toute demande de réservation de groupe (jusqu'à 50 personnes),
                 événement privé ou soirée match rugby.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
