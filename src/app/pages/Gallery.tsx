@@ -6,6 +6,7 @@ import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import heroImage from "../../imports/hero-1.jpg";
 import dessertImage from "../../imports/dessert.jpg";
+import gambasImage from "../../imports/gambas.jpg";
 
 const faqs = [
   {
@@ -31,7 +32,7 @@ const galleries = [
     title: "Spécialités",
     description: "Assiettes de la mer, gambas grillées, Saint-Jacques — arrivage quotidien",
     images: [
-      { url: "/restaurant-narbonne-assiette-mer-poisson-gambas.jpg", alt: "Assiette fruits de mer gambas Saint-Jacques restaurant Narbonne Le Quai" },
+      { url: gambasImage, alt: "Assiette fruits de mer gambas Saint-Jacques restaurant Narbonne Le Quai" },
       { url: "/restaurant-narbonne-assiette-mixte-grillades-fruits-mer.jpg", alt: "Assiette mixte grillade restaurant Narbonne" },
       { url: "/restaurant-narbonne-pates-crevettes-chorizo.jpg", alt: "Pâtes crevettes chorizo restaurant Le Quai Narbonne" },
     ],
