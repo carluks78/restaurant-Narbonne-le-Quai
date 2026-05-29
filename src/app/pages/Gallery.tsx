@@ -5,6 +5,7 @@ import { Link } from "react-router";
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import heroImage from "../../imports/hero-1.jpg";
+import dessertImage from "../../imports/dessert.jpg";
 
 const faqs = [
   {
@@ -55,7 +56,7 @@ const galleries = [
     title: "Desserts Maison",
     description: "Café gourmand, crème brûlée, mousse au chocolat — douceurs faites maison",
     images: [
-      { url: "/restaurant-narbonne-cafe-gourmand-dessert.jpg", alt: "Café gourmand desserts maison restaurant Le Quai Narbonne" },
+      { url: dessertImage", alt: "Café gourmand desserts maison restaurant Le Quai Narbonne" },
     ],
   },
 ];
