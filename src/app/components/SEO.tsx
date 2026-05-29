@@ -40,11 +40,11 @@ const baseRestaurantSchema = {
     }
   ],
   "servesCuisine": [
-    "Méditerranéenne", "Française", "Italienne", "Languedoc", "Fruits de mer", "Poissons frais", "Pizzas artisanales"
+    "Méditerranéenne", "Française", "Italienne", "Languedoc", "Poissons frais", "Pizzas artisanales"
   ],
   "priceRange": "€€",
   "currenciesAccepted": "EUR",
-  "paymentAccepted": "Cash, Credit Card, Carte bancaire",
+  "paymentAccepted": "Cash, Credit Card, Carte bancaire, Chèques Vacances, Tcket restaurant en papier et en dématérialiser",
   "menu": `${BASE_URL}/menu`,
   "acceptsReservations": "True",
   "reservationUrl": `${BASE_URL}/reservation`,
@@ -57,14 +57,14 @@ const baseRestaurantSchema = {
     "ratingCount": "1375"
   },
   "amenityFeature": [
-    { "@type": "LocationFeatureSpecification", "name": "Terrasse vue canal", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Terrasse vue canal / Cathédrale St-Just", "value": true },
     { "@type": "LocationFeatureSpecification", "name": "Climatisation", "value": true },
     { "@type": "LocationFeatureSpecification", "name": "Accessible PMR", "value": true },
     { "@type": "LocationFeatureSpecification", "name": "WiFi gratuit", "value": true },
     { "@type": "LocationFeatureSpecification", "name": "Écrans sportifs", "value": true },
     { "@type": "LocationFeatureSpecification", "name": "Réservation en ligne", "value": true }
   ],
-  "keywords": "restaurant Narbonne, meilleur restaurant Narbonne, restaurant centre ville Narbonne, restaurant bord canal Narbonne, cuisine méditerranéenne Narbonne, restaurant terrasse canal de la Robine, fruits de mer Narbonne, pizzas artisanales Narbonne, restaurant ouvert 7j7 Narbonne, où manger Narbonne, restaurant romantique Narbonne, brasserie Narbonne, restaurant poisson Narbonne, partenaire RC Narbonne",
+  "keywords": "restaurant Narbonne, meilleur restaurant Narbonne, restaurant centre ville Narbonne, restaurant bord canal Narbonne, cuisine méditerranéenne Narbonne, restaurant terrasse canal de la Robine et Cathédrale St-Just, pizzas artisanales Narbonne, où manger Narbonne, restaurant romantique Narbonne, brasserie Narbonne, restaurant poisson Narbonne, partenaire RC Narbonne",
   "sameAs": [
     "https://www.rcnarbonne.com",
     "https://maps.google.com/?q=Le+Quai+Restaurant+12+Quai+Vallière+11100+Narbonne"
@@ -152,7 +152,6 @@ export function SEO({ title, description, path, keywords, ogImage, additionalSch
       "brasserie Narbonne",
       "restaurant poisson Narbonne",
       "pizzeria Narbonne",
-      "restaurant fruits de mer Narbonne",
       "Le Quai Narbonne",
       "restaurant Quai Vallière Narbonne",
       keywords || ""
