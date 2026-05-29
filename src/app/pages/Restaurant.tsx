@@ -199,6 +199,26 @@ export function Restaurant() {
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   />
                 </div>
+                </ScrollReveal>
+            <div className="grid sm:grid-cols-2 gap-4 md:gap-6">
+              <ScrollReveal direction="left">
+                <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+                  <ImageWithFallback
+                    src="https://images.unsplash.com/photo-1670603999602-af0ddca5e5bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                    alt="Terrasse restaurant Le Quai Narbonne vue canal"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+                </ScrollReveal>
+            <div className="grid sm:grid-cols-2 gap-4 md:gap-6">
+              <ScrollReveal direction="left">
+                <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+                  <ImageWithFallback
+                    src="https://images.unsplash.com/photo-1670603999602-af0ddca5e5bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                    alt="Terrasse restaurant Le Quai Narbonne vue canal"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
               </ScrollReveal>
               <ScrollReveal direction="right">
                 <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
