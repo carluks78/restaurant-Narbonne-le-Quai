@@ -384,7 +384,7 @@ export function Home() {
             {[
               { value: "4.6/5", label: "Note Google" },
               { value: "1 375", label: "Avis clients" },
-              { value: "7j/7", label: "Ouvert" },
+              { value: "7j/7", label: "Ouvert du Lundi au Samedi de 09:00 à 14:00 et de 19:30 à 22:00 sauf le Mercredi Fermé et le dimanche de 10:00 à 14:00" },
               { value: "+15 ans", label: "D'expérience" },
             ].map((stat, i) => (
               <ScrollReveal key={i} delay={i * 80}>
