@@ -19,11 +19,11 @@ const faqs = [
   },
   {
     q: "Le restaurant propose-t-il une terrasse avec vue sur le canal ?",
-    a: "Oui ! Notre terrasse chauffée, disponible toute l'année, offre une vue magnifique sur le Quai Vallière et le Canal de la Robine. Un cadre unique pour un déjeuner ou dîner romantique à Narbonne.",
+    a: "Oui ! Notre terrasse offre une vue magnifique sur le Quai Vallière et le Canal de la Robine et vue sur la Cathédrale. Un cadre unique pour un déjeuner ou dîner romantique à Narbonne.",
   },
   {
     q: "Combien de couverts le restaurant peut-il accueillir ?",
-    a: "Le Quai peut accueillir jusqu'à 80 couverts entre la salle intérieure et la terrasse. Pour les groupes et événements privatisés, nous pouvons organiser des soirées jusqu'à 30 personnes.",
+    a: "Le Quai peut accueillir jusqu'à 80 couverts entre la salle intérieure et la terrasse. Pour les groupes et événements privatisés, nous pouvons organiser des soirées jusqu'à 50 personnes.",
   },
   {
     q: "Le restaurant propose-t-il des menus du midi ?",
@@ -44,13 +44,13 @@ export function Restaurant() {
         title="Le Restaurant Le Quai Narbonne | Histoire, Terrasse Canal de la Robine & Cuisine Méditerranéenne"
         description="Découvrez le restaurant Le Quai à Narbonne : 15 ans d'excellence culinaire en bord du canal de la Robine. Terrasse panoramique, cuisine méditerranéenne raffinée, produits frais du Languedoc. Partenaire officiel RC Narbonne."
         path="/restaurant"
-        keywords="restaurant Quai Vallière Narbonne, terrasse canal de la Robine Narbonne, restaurant avec vue Narbonne, restaurant histoire Narbonne, cuisine terroir Languedoc Narbonne, restaurant brasserie Narbonne, restaurant privatisation Narbonne"
+        keywords="restaurant Quai Vallière Narbonne, terrasse canal de la Robine Narbonne et vue sur la Cathédrale, restaurant avec vue Narbonne, restaurant histoire Narbonne, cuisine terroir Languedoc Narbonne, restaurant brasserie Narbonne, restaurant privatisation Narbonne"
         additionalSchemas={[buildFAQSchema(faqs)]}
       />
 
       <ParallaxHero
         image={heroImage}
-        alt="Terrasse restaurant Le Quai Narbonne vue canal de la Robine bord quai"
+        alt="Terrasse restaurant Le Quai Narbonne vue canal de la Robine et vue sur la Cathédrale"
         title="Le Restaurant"
         subtitle="Une histoire de passion culinaire et d'excellence méditerranéenne"
         height="60vh"
@@ -187,8 +187,8 @@ export function Restaurant() {
         L'<strong>Ambiance</strong> du Quai
       </h2>
       <p className="text-muted-foreground max-w-3xl mx-auto text-sm md:text-base leading-relaxed">
-        Un cadre élégant et intime pour vos moments privilégiés. Notre terrasse chauffée vous accueille
-        toute l'année avec une vue imprenable sur le Quai Vallière et le Canal de la Robine.
+        Un cadre élégant et intime pour vos moments privilégiés. Le Quai vous accueille
+        toute l'année avec une vue imprenable sur le Quai Vallière et le Canal de la Robine avec vue sur la Cathédrale.
         Parfait pour vos <Link to="/reservation" className="text-accent hover:underline">dîners romantiques</Link>,
         repas d'affaires ou <Link to="/events" className="text-accent hover:underline">soirées match rugby 🏉</Link>.
       </p>
