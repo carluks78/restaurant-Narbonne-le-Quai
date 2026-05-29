@@ -105,7 +105,7 @@ export function Home() {
         title="Restaurant Le Quai Narbonne ⭐ Meilleur Restaurant Centre-Ville | Cuisine Méditerranéenne Terrasse Canal"
         description="Restaurant Le Quai Narbonne ⭐ 4.6/5 sur 1 375 avis. Meilleur restaurant Narbonne centre-ville, terrasse bord canal de la Robine. Cuisine méditerranéenne, poissons frais, pizzas artisanales, fruits de mer. Ouvert 7j/7 dès 09h. Réservez : 04 68 90 62 42."
         path="/"
-        keywords="restaurant Narbonne, meilleur restaurant Narbonne, restaurant bord canal Narbonne, restaurant terrasse Narbonne, cuisine méditerranéenne Narbonne, restaurant romantique Narbonne, où manger Narbonne, restaurant groupe Narbonne, brasserie Narbonne, restaurant ouvert dimanche Narbonne, restaurant poisson fruits de mer Narbonne, pizzeria Narbonne, restaurant canal de la Robine, restaurant Quai Vallière Narbonne"
+        keywords="restaurant Narbonne, meilleur restaurant Narbonne, restaurant bord canal Narbonne, restaurant terrasse Narbonne, cuisine méditerranéenne Narbonne, restaurant romantique Narbonne, où manger Narbonne, restaurant groupe Narbonne, brasserie Narbonne, restaurant ouvert dimanche midi Narbonne, restaurant poisson Narbonne, pizzeria Narbonne, restaurant canal de la Robine, restaurant Quai Vallière Narbonne"
         additionalSchemas={[buildFAQSchema(faqs)]}
       />
 
@@ -131,7 +131,7 @@ export function Home() {
           <div className="flex items-center justify-center gap-3 mb-6 md:mb-8">
             <div className="h-px w-12 bg-white/40" />
             <p className="text-sm md:text-base text-white/80 tracking-wider">
-              Terrasse vue canal · Poissons frais · Pizzas artisanales
+              Terrasse vue canal / la Cathédrale · Poissons frais · Pizzas artisanales
             </p>
             <div className="h-px w-12 bg-white/40" />
           </div>
@@ -237,7 +237,7 @@ export function Home() {
               </p>
               <p>
                 Notre <strong>cuisine méditerranéenne raffinée</strong> :
-                <strong> poissons frais de Méditerranée</strong>, <strong>fruits de mer</strong>,
+                <strong> poissons frais de Méditerranée</strong>,
                 <strong>gambas grillées</strong>, <strong>pizzas artisanales maison...</strong> Nous travaillons avec les meilleurs <em>producteurs
                 locaux du Languedoc</em> et sommes <strong>partenaire officiel du RC Narbonne</strong>.
               </p>
@@ -266,7 +266,7 @@ export function Home() {
                 <span className="w-1.5 h-1.5 rounded-full bg-accent" />
               </div>
               <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-                Entrecôte grillée, fruits de mer frais, pizzas artisanales.
+                Entrecôte grillée, pizzas artisanales.
                 Produits frais du marché de Narbonne chaque matin.
               </p>
             </div>
@@ -332,7 +332,7 @@ export function Home() {
               {
                 icon: Utensils,
                 title: "Spécialités Méditerranéennes",
-                text: "Poissons frais du marché (daurade, loup, thon rouge), fruits de mer (gambas, Saint-Jacques, calamars, moules), pizzas artisanales, pâtes fraîches maison, viandes grillées, planches charcuterie fromage du Languedoc.",
+                text: "Poissons frais du marché (daurade, loup, thon rouge), (gambas, Saint-Jacques, calamars, moules), pizzas artisanales, pâtes fraîches maison, viandes grillées, planches charcuterie fromage du Languedoc.",
               },
               {
                 icon: MapPin,
