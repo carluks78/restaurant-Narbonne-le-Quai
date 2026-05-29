@@ -243,7 +243,7 @@ export function Home() {
               </p>
               <p>
                 Situé au <strong>12 Quai Vallière</strong>, à 5 min des <strong>Halles de Narbonne </strong>
-                et de la <strong>Cathédrale Saint-Just</strong>. <strong>Restaurant ouvert 7j/7</strong> dès 09h00.
+                et de la <strong>Cathédrale Saint-Just</strong>.
                 <Link to="/visiter-narbonne" className="text-accent hover:underline block mt-2">
                   Découvrez les sites à visiter près du restaurant →
                 </Link>
