@@ -213,24 +213,24 @@ export function Restaurant() {
                 </div>
                 </ScrollReveal>
             <div className="grid sm:grid-cols-2 gap-4 md:gap-6">
-              <ScrollReveal direction="left">
-                <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
-                  <ImageWithFallback
-                    src={photo1Image}
-                    alt="Terrasse restaurant Le Quai Narbonne vue canal"
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-              </ScrollReveal>
-              <ScrollReveal direction="right">
-                <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
-                  <ImageWithFallback
-                    src={photo1Image}
-                    alt="Intérieur restaurant Le Quai Narbonne ambiance chaleureuse"
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-              </ScrollReveal>
+  <ScrollReveal direction="left">
+    <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+      <ImageWithFallback
+        src={photo1Image}
+        alt="Terrasse restaurant Le Quai Narbonne vue canal"
+        className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+      />
+    </div>
+  </ScrollReveal>
+  <ScrollReveal direction="right">
+    <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+      <ImageWithFallback
+        src={photo2Image}
+        alt="Intérieur restaurant Le Quai Narbonne ambiance chaleureuse"
+        className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+      />
+    </div>
+  </ScrollReveal>
             </div>
           </section>
 
