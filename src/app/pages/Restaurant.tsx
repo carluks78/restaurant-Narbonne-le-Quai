@@ -9,6 +9,8 @@ import heroImage from "../../imports/hero-1.jpg";
 import photoImage from "../../imports/photo.jpg";
 import photo1Image from "../../imports/photo1.JPG";
 import photo2Image from "../../imports/photo2.JPG";
+import photo5Image from "../../imports/photo5.JPG";
+import photo6Image from "../../imports/photo6.JPG";
 
 const faqs = [
   {
@@ -197,7 +199,7 @@ export function Restaurant() {
     <ScrollReveal direction="left">
       <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
         <ImageWithFallback
-          src="https://images.unsplash.com/photo-1670603999602-af0ddca5e5bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+          src={photo5Image}
           alt="Terrasse restaurant Le Quai Narbonne vue canal"
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
         />
@@ -206,7 +208,7 @@ export function Restaurant() {
     <ScrollReveal direction="right">
       <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
         <ImageWithFallback
-          src="https://images.unsplash.com/photo-1776993298422-3e8c397d0235?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+          src="{photo6Image}
           alt="Intérieur restaurant Le Quai Narbonne ambiance chaleureuse"
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
         />
