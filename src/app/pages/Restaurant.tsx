@@ -6,6 +6,7 @@ import { Link } from "react-router";
 import { Award, Heart, Sparkles, Users, ChefHat, Star, ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 import heroImage from "../../imports/hero-1.jpg";
+import photoImage from "../../imports/photo.jpg";
 
 const faqs = [
   {
@@ -82,7 +83,7 @@ export function Restaurant() {
             <ScrollReveal direction="right">
               <div className="relative h-80 md:h-96 rounded-2xl overflow-hidden shadow-xl">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1679312061521-d7d619a8cfb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                  src={photoImage}
                   alt="Salle restaurant Le Quai Narbonne décoration élégante"
                   className="w-full h-full object-cover"
                 />
