@@ -332,7 +332,7 @@ export function Home() {
               {
                 icon: Utensils,
                 title: "Spécialités Méditerranéennes",
-                text: "Poissons frais du marché (daurade, loup, thon rouge), (gambas, Saint-Jacques, calamars, moules), pizzas artisanales, pâtes fraîches maison, viandes grillées, planches charcuterie fromage du Languedoc.",
+                text: "Poissons frais du marché (daurade, loup, thon rouge), (gambas, Saint-Jacques, calamars, moules), pizzas artisanales, pâtes, viandes grillées, planches charcuterie fromage du Languedoc.",
               },
               {
                 icon: MapPin,
@@ -348,7 +348,7 @@ export function Home() {
               {
                 icon: Users,
                 title: "Pour Toutes Vos Occasions",
-                text: "Restaurant familial, romantique, d'affaires ou pour groupes jusqu'à 30 personnes. Déjeuner, dîner, anniversaire, repas d'entreprise, soirée match rugby RC Narbonne. Ouvert 7j/7 dès 09h00.",
+                text: "Restaurant familial, romantique, d'affaires ou pour groupes jusqu'à 50 personnes. Déjeuner, dîner, anniversaire, repas d'entreprise, soirée match rugby RC Narbonne. Ouvert du Lundi au Samedi de 09:00 à 14:00 et de 19:30 à 22:00 sauf le Mercredi Fermé et le dimanche de 10:00 à 14:00.",
                 link: { to: "/events", label: "Soirées matchs 🏉 →" },
               },
             ].map((item, i) => (
