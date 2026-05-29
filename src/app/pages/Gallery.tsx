@@ -27,12 +27,12 @@ const faqs = [
 
 const galleries = [
   {
-    title: "Spécialités Fruits de Mer",
+    title: "Spécialités",
     description: "Assiettes de la mer, gambas grillées, Saint-Jacques — arrivage quotidien",
     images: [
       { url: "/restaurant-narbonne-assiette-mer-poisson-gambas.jpg", alt: "Assiette fruits de mer gambas Saint-Jacques restaurant Narbonne Le Quai" },
-      { url: "/restaurant-narbonne-assiette-mixte-grillades-fruits-mer.jpg", alt: "Assiette mixte grillade fruits de mer restaurant Narbonne" },
-      { url: "/restaurant-narbonne-pates-crevettes-chorizo.jpg", alt: "Pâtes fraîches crevettes chorizo restaurant Le Quai Narbonne" },
+      { url: "/restaurant-narbonne-assiette-mixte-grillades-fruits-mer.jpg", alt: "Assiette mixte grillade restaurant Narbonne" },
+      { url: "/restaurant-narbonne-pates-crevettes-chorizo.jpg", alt: "Pâtes crevettes chorizo restaurant Le Quai Narbonne" },
     ],
   },
   {
@@ -67,7 +67,7 @@ export function Gallery() {
     <>
       <SEO
         title="Galerie Photos Restaurant Le Quai Narbonne | Plats, Terrasse, Ambiance"
-        description="Photos du restaurant Le Quai Narbonne : plats cuisine méditerranéenne, fruits de mer, pizzas artisanales, terrasse bord canal de la Robine, ambiance conviviale. Meilleur restaurant Narbonne en images."
+        description="Photos du restaurant Le Quai Narbonne : plats cuisine méditerranéenne, pizzas artisanales, terrasse bord canal de la Robine, ambiance conviviale. Meilleur restaurant Narbonne en images."
         path="/galerie"
         keywords="photos restaurant Narbonne, galerie restaurant Narbonne, restaurant terrasse canal Narbonne photos, plats restaurant Narbonne images, ambiance restaurant Narbonne"
         additionalSchemas={[buildFAQSchema(faqs)]}
@@ -77,7 +77,7 @@ export function Gallery() {
         image={heroImage}
         alt="Restaurant Le Quai Narbonne terrasse canal de la Robine"
         title="Galerie du Restaurant"
-        subtitle="Nos plats réels — cuisine méditerranéenne fraîche chaque jour"
+        subtitle="Nos plats réels — cuisine méditerranéenne chaque jour"
         height="55vh"
       />
 
@@ -160,7 +160,7 @@ export function Gallery() {
               </h2>
               <p className="text-sm md:text-base text-primary-foreground/80 mb-6 max-w-2xl mx-auto">
                 Réservez votre table au <strong>restaurant Le Quai Narbonne</strong> et découvrez nos
-                spécialités de fruits de mer et notre terrasse bord canal.
+                spécialités et notre terrasse bord canal.
               </p>
               <Link
                 to="/reservation"
