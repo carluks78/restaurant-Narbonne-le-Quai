@@ -103,7 +103,7 @@ export function Home() {
     <>
       <SEO
         title="Restaurant Le Quai Narbonne ⭐ Meilleur Restaurant Centre-Ville | Cuisine Méditerranéenne Terrasse Canal"
-        description="Restaurant Le Quai Narbonne ⭐ 4.6/5 sur 1 375 avis. Meilleur restaurant Narbonne centre-ville, terrasse bord canal de la Robine. Cuisine méditerranéenne, poissons frais, pizzas artisanales, fruits de mer. Ouvert 7j/7 dès 09h. Réservez : 04 68 90 62 42."
+        description="Restaurant Le Quai Narbonne ⭐ 4.6/5 sur 1 375 avis. Meilleur restaurant Narbonne centre-ville, terrasse bord canal de la Robine. Cuisine méditerranéenne, poissons frais, pizzas artisanales. Réservez : 04 68 90 62 42."
         path="/"
         keywords="restaurant Narbonne, meilleur restaurant Narbonne, restaurant bord canal Narbonne, restaurant terrasse Narbonne, cuisine méditerranéenne Narbonne, restaurant romantique Narbonne, où manger Narbonne, restaurant groupe Narbonne, brasserie Narbonne, restaurant ouvert dimanche midi Narbonne, restaurant poisson Narbonne, pizzeria Narbonne, restaurant canal de la Robine, restaurant Quai Vallière Narbonne"
         additionalSchemas={[buildFAQSchema(faqs)]}
