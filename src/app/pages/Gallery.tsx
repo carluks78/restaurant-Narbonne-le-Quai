@@ -56,7 +56,7 @@ const galleries = [
     title: "Desserts Maison",
     description: "Café gourmand, crème brûlée, mousse au chocolat — douceurs faites maison",
     images: [
-      { url: dessertImage", alt: "Café gourmand desserts maison restaurant Le Quai Narbonne" },
+      { url: dessertImage, alt: "Café gourmand desserts maison restaurant Le Quai Narbonne" },
     ],
   },
 ];
