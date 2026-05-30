@@ -7,7 +7,7 @@
 
   <!-- Page d'accueil — Restaurant Le Quai Narbonne -->
   <url>
-    <loc>https://lequai-narbonne.fr/</loc>
+    <loc>https://www.restaurant-le-quai-narbonne.fr/</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -20,7 +20,7 @@
 
   <!-- Le Restaurant -->
   <url>
-    <loc>https://lequai-narbonne.fr/restaurant</loc>
+    <loc>https://www.restaurant-le-quai-narbonne.fr/restaurant</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -32,7 +32,7 @@
 
   <!-- Menu — Carte -->
   <url>
-    <loc>https://lequai-narbonne.fr/menu</loc>
+    <loc>https://www.restaurant-le-quai-narbonne.fr/menu</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -44,7 +44,7 @@
 
   <!-- Réservation -->
   <url>
-    <loc>https://lequai-narbonne.fr/reservation</loc>
+    <loc>https://www.restaurant-le-quai-narbonne.fr/reservation</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -52,7 +52,7 @@
 
   <!-- Galerie photos -->
   <url>
-    <loc>https://lequai-narbonne.fr/galerie</loc>
+    <loc>https://www.restaurant-le-quai-narbonne.fr/galerie</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -64,7 +64,7 @@
 
   <!-- Avis clients -->
   <url>
-    <loc>https://lequai-narbonne.fr/avis</loc>
+    <loc>https://www.restaurant-le-quai-narbonne.fr/avis</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -72,7 +72,7 @@
 
   <!-- Événements — RC Narbonne, Matchs rugby football -->
   <url>
-    <loc>https://lequai-narbonne.fr/events</loc>
+    <loc>https://www.restaurant-le-quai-narbonne.fr/events</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -84,7 +84,7 @@
 
   <!-- Visiter Narbonne -->
   <url>
-    <loc>https://lequai-narbonne.fr/visiter-narbonne</loc>
+    <loc>https://www.restaurant-le-quai-narbonne.fr//visiter-narbonne</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -92,7 +92,7 @@
 
   <!-- Contact -->
   <url>
-    <loc>https://lequai-narbonne.fr/contact</loc>
+    <loc>https://www.restaurant-le-quai-narbonne.fr/contact</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
