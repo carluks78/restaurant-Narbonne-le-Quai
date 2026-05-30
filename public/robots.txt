@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://lequai-narbonne.fr/sitemap.xml
+Sitemap: https://www.restaurant-le-quai-narbonne.fr/sitemap.xml
 
 # Crawl-delay (optional, prevents excessive load)
 Crawl-delay: 1
