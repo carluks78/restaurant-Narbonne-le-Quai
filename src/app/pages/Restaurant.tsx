@@ -221,6 +221,7 @@ export function Restaurant() {
           src={CathédraleImage}
           alt="Terrasse restaurant Le Quai Narbonne vue cathédrale"
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+          />
       </div>
     </ScrollReveal>
   </div>
