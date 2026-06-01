@@ -11,7 +11,7 @@ import photo1Image from "../../imports/photo1.JPG";
 import photo2Image from "../../imports/photo2.JPG";
 import photo5Image from "../../imports/photo5.JPG";
 import photo6Image from "../../imports/photo6.JPG";
-import CathedralImage from "../../imports/Cathédrale.JPG";
+import cathedralImage from "../../imports/cathedrale.jpg";
 
 
 const faqs = [
@@ -222,7 +222,7 @@ export function Restaurant() {
               <ScrollReveal direction="left">
                 <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
                   <ImageWithFallback
-                    src={CathedralImage}
+                    src={cathedralImage}
                     alt="Terrasse restaurant Le Quai Narbonne vue cathédrale"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   />
