@@ -11,7 +11,7 @@ import photo1Image from "../../imports/photo1.JPG";
 import photo2Image from "../../imports/photo2.JPG";
 import photo5Image from "../../imports/photo5.JPG";
 import photo6Image from "../../imports/photo6.JPG";
-import CathedralImage from "../../imports/Cathedrale.JPG";
+import CathedralImage from "../../imports/Cathédrale.PNG";
 
 
 const faqs = [
