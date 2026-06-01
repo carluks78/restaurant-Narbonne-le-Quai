@@ -182,71 +182,75 @@ export function Restaurant() {
           </ScrollReveal>
 
           {/* Ambiance */}
-<section className="mb-14 md:mb-16">
-  <ScrollReveal>
-    <div className="text-center mb-8">
-      <h2 className="font-serif text-3xl md:text-4xl mb-4 text-primary">
-        L'<strong>Ambiance</strong> du Quai
-      </h2>
-      <p className="text-muted-foreground max-w-3xl mx-auto text-sm md:text-base leading-relaxed">
-        Un cadre élégant et intime pour vos moments privilégiés. Le Quai vous accueille
-        toute l'année avec une vue imprenable sur le Quai Vallière et le Canal de la Robine avec vue sur la Cathédrale.
-        Parfait pour vos <Link to="/reservation" className="text-accent hover:underline">dîners romantiques</Link>,
-        repas d'affaires ou <Link to="/events" className="text-accent hover:underline">soirées match rugby 🏉</Link>.
-      </p>
-    </div>
-  </ScrollReveal>
+          <section className="mb-14 md:mb-16">
+            <ScrollReveal>
+              <div className="text-center mb-8">
+                <h2 className="font-serif text-3xl md:text-4xl mb-4 text-primary">
+                  L'<strong>Ambiance</strong> du Quai
+                </h2>
+                <p className="text-muted-foreground max-w-3xl mx-auto text-sm md:text-base leading-relaxed">
+                  Un cadre élégant et intime pour vos moments privilégiés. Le Quai vous accueille
+                  toute l'année avec une vue imprenable sur le Quai Vallière et le Canal de la Robine avec vue sur la Cathédrale.
+                  Parfait pour vos <Link to="/reservation" className="text-accent hover:underline">dîners romantiques</Link>,
+                  repas d'affaires ou <Link to="/events" className="text-accent hover:underline">soirées match rugby 🏉</Link>.
+                </p>
+              </div>
+            </ScrollReveal>
 
-  <div className="grid sm:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
-    <ScrollReveal direction="left">
-      <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
-        <ImageWithFallback
-          src={photo5Image}
-          alt="Terrasse restaurant Le Quai Narbonne vue canal"
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-        />
-      </div>
-    </ScrollReveal>
-    <ScrollReveal direction="right">
-      <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
-        <ImageWithFallback
-          src={photo6Image}
-          alt="Intérieur restaurant Le Quai Narbonne ambiance chaleureuse"
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-        />
-        <div className="grid sm:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
-    <ScrollReveal direction="left">
-      <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
-        <ImageWithFallback
-          src={CathédraleImage}
-          alt="Terrasse restaurant Le Quai Narbonne vue cathédrale"
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-          />
-      </div>
-    </ScrollReveal>
-  </div>
+            <div className="grid sm:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
+              <ScrollReveal direction="left">
+                <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+                  <ImageWithFallback
+                    src={photo5Image}
+                    alt="Terrasse restaurant Le Quai Narbonne vue canal"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+              </ScrollReveal>
+              <ScrollReveal direction="right">
+                <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+                  <ImageWithFallback
+                    src={photo6Image}
+                    alt="Intérieur restaurant Le Quai Narbonne ambiance chaleureuse"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+              </ScrollReveal>
+            </div>
 
-  <div className="grid sm:grid-cols-2 gap-4 md:gap-6">
-    <ScrollReveal direction="left">
-      <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
-        <ImageWithFallback
-          src={photo1Image}
-          alt="Terrasse restaurant Le Quai Narbonne vue canal"
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-        />
-      </div>
-    </ScrollReveal>
-    <ScrollReveal direction="right">
-      <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
-        <ImageWithFallback
-          src={photo2Image}
-          alt="Intérieur restaurant Le Quai Narbonne ambiance chaleureuse"
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-        />
-      </div>
-    </ScrollReveal>
-  </div>
-</section>
+            <div className="grid sm:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
+              <ScrollReveal direction="left">
+                <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+                  <ImageWithFallback
+                    src={CathédraleImage}
+                    alt="Terrasse restaurant Le Quai Narbonne vue cathédrale"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+              </ScrollReveal>
+            </div>
+
+            <div className="grid sm:grid-cols-2 gap-4 md:gap-6">
+              <ScrollReveal direction="left">
+                <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+                  <ImageWithFallback
+                    src={photo1Image}
+                    alt="Terrasse restaurant Le Quai Narbonne vue canal"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+              </ScrollReveal>
+              <ScrollReveal direction="right">
+                <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+                  <ImageWithFallback
+                    src={photo2Image}
+                    alt="Intérieur restaurant Le Quai Narbonne ambiance chaleureuse"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+              </ScrollReveal>
+            </div>
+          </section>
 
           {/* FAQ */}
           <ScrollReveal>
