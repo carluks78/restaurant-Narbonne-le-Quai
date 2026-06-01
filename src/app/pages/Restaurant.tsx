@@ -222,7 +222,7 @@ export function Restaurant() {
               <ScrollReveal direction="left">
                 <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
                   <ImageWithFallback
-                    src={CathedraleImage}
+                    src={CathedralImage}
                     alt="Terrasse restaurant Le Quai Narbonne vue cathédrale"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   />
