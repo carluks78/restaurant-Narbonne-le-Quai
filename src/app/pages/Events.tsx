@@ -154,55 +154,7 @@ export function Events() {
   </div>
 </section>
 
-      {/* Prochains matchs */}
-      <section className="py-14 md:py-20 bg-background">
-        <div className="container mx-auto px-4 max-w-5xl">
-          <ScrollReveal>
-            <div className="text-center mb-10">
-              <p className="text-[10px] tracking-[0.3em] uppercase text-accent mb-3 font-medium">Programme Sportif</p>
-              <h2 className="font-serif text-3xl md:text-4xl mb-3 text-primary">
-                Prochaines <strong>retransmissions</strong>
-              </h2>
-              <div className="section-ornament">
-                <span className="w-1.5 h-1.5 rounded-full bg-accent" />
-              </div>
-              <p className="text-muted-foreground text-sm md:text-base max-w-2xl mx-auto">
-                Programme indicatif — contactez-nous pour confirmer les horaires de diffusion.
-              </p>
-            </div>
-          </ScrollReveal>
- <div className="grid md:grid-cols-3 gap-5 mb-12">
-            {upcomingMatches.map((match, i) => (
-              <ScrollReveal key={i} delay={i * 100}>
-                <div className="bg-white rounded-2xl border border-border/30 shadow-sm hover:shadow-xl hover:border-accent/25 hover:-translate-y-1 transition-all duration-300 overflow-hidden">
-                  <div className="bg-[#2A2A2A] px-4 py-3 flex items-center justify-between">
-                    <span className="text-[10px] text-white/50 uppercase tracking-[0.2em] font-medium">{match.competition}</span>
-                    <span className="text-[10px] bg-accent/20 text-accent px-2.5 py-1 rounded-full tracking-wide">{match.badge}</span>
-                  </div>
-                  <div className="p-6 text-center">
-                    <p className="font-serif text-base md:text-lg text-primary mb-2 leading-snug">{match.home}</p>
-                    <div className="flex items-center justify-center gap-3 my-2">
-                      <div className="h-px flex-1 bg-border/50" />
-                      <span className="text-lg text-accent font-serif tracking-widest px-1">VS</span>
-                      <div className="h-px flex-1 bg-border/50" />
-                    </div>
-                    <p className="font-serif text-base md:text-lg text-primary mb-4 leading-snug">{match.away}</p>
-                    <div className="flex items-center justify-center gap-5 text-xs text-muted-foreground">
-                      <span className="flex items-center gap-1.5">
-                        <Calendar className="w-3.5 h-3.5 text-accent" />
-                        {match.date}
-                      </span>
-                      <span className="flex items-center gap-1.5">
-                        <Clock className="w-3.5 h-3.5 text-accent" />
-                        {match.time}
-                      </span>
-                    </div>
-                  </div>
-         
-                </div>
-              </ScrollReveal>
-            ))}
-          </div>
+      
 
           {/* Features */}
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-5">
