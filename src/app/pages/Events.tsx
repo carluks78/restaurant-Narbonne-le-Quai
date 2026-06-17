@@ -124,30 +124,30 @@ export function Events() {
 
         {/* NARBONNE VOLLEY */}
         <ScrollReveal direction="right">
-          <div className="relative rounded-2xl overflow-hidden shadow-xl">
-            <img
-              src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1920&q=80"
-              alt="Partenaire Narbonne Volley - Volley-ball"
-              className="w-full h-72 object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+  <div className="relative rounded-2xl overflow-hidden shadow-xl">
+    <img
+      src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1920&q=80"
+      alt="Match de volley-ball en salle - Narbonne Volley"
+      className="w-full h-72 object-cover"
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
 
-            <div className="absolute bottom-4 left-4">
-              <span className="inline-block bg-accent text-white px-4 py-2 rounded-lg text-sm font-medium">
-                🏐 Narbonne Volley
-              </span>
+    <div className="absolute bottom-4 left-4">
+      <span className="inline-block bg-accent text-white px-4 py-2 rounded-lg text-sm font-medium">
+        🏐 Narbonne Volley
+      </span>
 
-              <a
-                href="https://www.narbonnevolley.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block mt-2 text-xs text-white/80 hover:text-white transition"
-              >
-                Site officiel →
-              </a>
-            </div>
-          </div>
-        </ScrollReveal>
+      <a
+        href="https://www.narbonnevolley.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block mt-2 text-xs text-white/80 hover:text-white transition"
+      >
+        Site officiel →
+      </a>
+    </div>
+  </div>
+</ScrollReveal>
 
       </div>
     </ScrollReveal>
