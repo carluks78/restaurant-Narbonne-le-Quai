@@ -126,7 +126,7 @@ export function Events() {
         <ScrollReveal direction="right">
   <div className="relative rounded-2xl overflow-hidden shadow-xl">
     <img
-      src="https://narbonnevolley.com/wp-content/uploads/2025/08/Site_Header_Desk_PereFille-–-1.png"
+      src="https://www.facebook.com/photo/?fbid=732388959605931&set=a.120092557502244"
       alt="Match de volley-ball en salle - Narbonne Volley"
       className="w-full h-72 object-cover"
     />
@@ -138,7 +138,7 @@ export function Events() {
       </span>
 
       <a
-        href="https://www.narbonnevolley.com"
+        href="https://www.facebook.com/academienarbonnevolley"
         target="_blank"
         rel="noopener noreferrer"
         className="block mt-2 text-xs text-white/80 hover:text-white transition"
