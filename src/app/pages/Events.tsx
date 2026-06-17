@@ -28,7 +28,7 @@ const faqs = [
   },
 ];
 
-export default function EventsPage() {
+export function Events() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
