@@ -2,14 +2,7 @@ import { SEO, buildFAQSchema } from "../components/SEO";
 import { ParallaxHero } from "../components/ParallaxHero";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { Link } from "react-router";
-import {
-  Tv,
-  Trophy,
-  Users,
-  MapPin,
-  ChevronDown,
-  ChevronUp,
-} from "lucide-react";
+import { Tv, Trophy, Calendar, Users, Clock, MapPin, ExternalLink, ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 
 const faqs = [
