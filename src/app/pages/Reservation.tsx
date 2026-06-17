@@ -125,7 +125,7 @@ Commentaires : ${formData.comments || "Aucun"}
     <>
       <SEO
         title="Réserver une Table — Restaurant Le Quai Narbonne | Réservation en Ligne 24h/24"
-        description="Réservez votre table au restaurant Le Quai à Narbonne en ligne ou par téléphone au 04 68 90 62 42. Confirmation immédiate. Ouvert 7j/7. Terrasse vue canal de la Robine. Groupes et occasions spéciales bienvenus."
+        description="Réservez votre table au restaurant Le Quai à Narbonne en ligne ou par téléphone au 04 68 90 62 42. Confirmation immédiate. Terrasse vue canal de la Robine. Groupes et occasions spéciales bienvenus."
         path="/reservation"
         keywords="réservation restaurant Narbonne, réserver table Narbonne, restaurant réservation en ligne Narbonne, table restaurant Narbonne, réserver pour groupe Narbonne, anniversaire restaurant Narbonne, réservation soirée Narbonne"
       />
@@ -296,18 +296,18 @@ Commentaires : ${formData.comments || "Aucun"}
           <div className="mt-12 grid md:grid-cols-3 gap-6 text-center">
             <div className="p-6 bg-white shadow-sm">
               <Calendar className="w-8 h-8 mx-auto mb-3 text-accent" />
-              <h3 className="font-serif mb-2">Réservation Simple</h3>
+              <h3 className="font-serif mb-2">Réservation En ligne</h3>
               <p className="text-sm text-muted-foreground">Confirmation instantanée en ligne</p>
             </div>
             <div className="p-6 bg-white shadow-sm">
               <Clock className="w-8 h-8 mx-auto mb-3 text-accent" />
-              <h3 className="font-serif mb-2">Service Continu</h3>
-              <p className="text-sm text-muted-foreground">Midi et soir, 7j/7</p>
+              <h3 className="font-serif mb-2">Service</h3>
+              <p className="text-sm text-muted-foreground">Midi et soir sauf le Mercredi (fermé) et le dimanche service du midi uniquement</p>
             </div>
             <div className="p-6 bg-white shadow-sm">
               <Users className="w-8 h-8 mx-auto mb-3 text-accent" />
               <h3 className="font-serif mb-2">Groupes Bienvenus</h3>
-              <p className="text-sm text-muted-foreground">Jusqu'à 10 personnes en ligne</p>
+              <p className="text-sm text-muted-foreground">Jusqu'à 50 personnes</p>
             </div>
           </div>
         </div>
