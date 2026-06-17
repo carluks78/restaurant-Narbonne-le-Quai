@@ -145,7 +145,7 @@ const faqs = [
                 </div>
               </ScrollReveal>
             ))}
-          </div>
+          
         </div>
       </section>
 
