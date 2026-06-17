@@ -126,7 +126,7 @@ export function Events() {
         <ScrollReveal direction="right">
   <div className="relative rounded-2xl overflow-hidden shadow-xl">
     <img
-      src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1920&q=80"
+      src="https://plus.unsplash.com/premium_photo-1661963404614-74802f16a7a0?q=80&w=2531&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       alt="Match de volley-ball en salle - Narbonne Volley"
       className="w-full h-72 object-cover"
     />
