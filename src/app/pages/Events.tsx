@@ -77,34 +77,62 @@ export function Events() {
       />
 
       {/* Partenaire officiel */}
-      <section className="py-12 md:py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 max-w-5xl text-center">
-          <ScrollReveal>
-            <div className="inline-flex items-center gap-3 bg-accent/20 border border-accent/40 px-6 py-3 rounded-full mb-6">
-              <Trophy className="w-5 h-5 text-accent" />
-              <span className="text-accent tracking-widest text-sm uppercase font-medium">Partenaire Officiel</span>
-              <Trophy className="w-5 h-5 text-accent" />
-            </div>
-            <h2 className="font-serif text-3xl md:text-4xl mb-4">
-              Le Quai &amp; le <strong className="text-accent">RC Narbonne</strong>
-            </h2>
-            <p className="text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed mb-6 text-sm md:text-base">
-              Restaurant <strong>Le Quai</strong> est fier d'être le <strong>partenaire officiel du Racing Club de Narbonne</strong>.
-              Supporters, familles et amateurs de rugby, rejoignez-nous pour chaque match dans une ambiance conviviale,
-              avec bonne nourriture et boissons. Allez les Sang &amp; Or !
-            </p>
-            <a
-              href="https://www.rcnarbonne.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-accent hover:text-accent/80 transition-colors text-sm"
-            >
-              Site officiel RC Narbonne
-              <ExternalLink className="w-4 h-4" />
-            </a>
-          </ScrollReveal>
+<section className="py-12 md:py-16 bg-primary text-primary-foreground">
+  <div className="container mx-auto px-4 max-w-5xl text-center">
+    <ScrollReveal>
+      <div className="inline-flex items-center gap-3 bg-accent/20 border border-accent/40 px-6 py-3 rounded-full mb-6">
+        <Trophy className="w-5 h-5 text-accent" />
+        <span className="text-accent tracking-widest text-sm uppercase font-medium">
+          Partenaires Officiels
+        </span>
+        <Trophy className="w-5 h-5 text-accent" />
+      </div>
+
+      <h2 className="font-serif text-3xl md:text-4xl mb-4">
+        Le Quai &amp; ses partenaires sportifs
+      </h2>
+
+      <p className="text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed mb-8 text-sm md:text-base">
+        Restaurant <strong>Le Quai</strong> soutient activement le sport narbonnais et
+        est fier d'accompagner plusieurs clubs emblématiques de la région.
+      </p>
+
+      <div className="flex flex-col md:flex-row justify-center gap-8">
+        {/* RC Narbonne */}
+        <div>
+          <h3 className="text-xl font-semibold mb-2 text-accent">
+            RC Narbonne
+          </h3>
+          <a
+            href="https://www.rcnarbonne.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-accent hover:text-accent/80 transition-colors text-sm"
+          >
+            Site officiel RC Narbonne
+            <ExternalLink className="w-4 h-4" />
+          </a>
         </div>
-      </section>
+
+        {/* Narbonne Volley */}
+        <div>
+          <h3 className="text-xl font-semibold mb-2 text-accent">
+            Narbonne Volley
+          </h3>
+          <a
+            href="https://www.narbonnevolley.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-accent hover:text-accent/80 transition-colors text-sm"
+          >
+            Site officiel Narbonne Volley
+            <ExternalLink className="w-4 h-4" />
+          </a>
+        </div>
+      </div>
+    </ScrollReveal>
+  </div>
+</section>
 
       {/* Prochains matchs */}
       <section className="py-14 md:py-20 bg-background">
