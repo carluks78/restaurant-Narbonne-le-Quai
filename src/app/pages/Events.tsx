@@ -88,47 +88,67 @@ export function Events() {
         <Trophy className="w-5 h-5 text-accent" />
       </div>
 
-      <h2 className="font-serif text-3xl md:text-4xl mb-4">
-        Le Quai &amp; ses partenaires sportifs
+      <h2 className="font-serif text-3xl md:text-4xl mb-10">
+        Le Quai & ses partenaires sportifs
       </h2>
 
-      <p className="text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed mb-8 text-sm md:text-base">
-        Restaurant <strong>Le Quai</strong> soutient activement le sport narbonnais et
-        est fier d'accompagner plusieurs clubs emblématiques de la région.
-      </p>
+      {/* CARTES PARTENAIRES */}
+      <div className="grid md:grid-cols-2 gap-8">
 
-      <div className="flex flex-col md:flex-row justify-center gap-8">
-        {/* RC Narbonne */}
-        <div>
-          <h3 className="text-xl font-semibold mb-2 text-accent">
-            RC Narbonne
-          </h3>
-          <a
-            href="https://www.rcnarbonne.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-accent hover:text-accent/80 transition-colors text-sm"
-          >
-            Site officiel RC Narbonne
-            <ExternalLink className="w-4 h-4" />
-          </a>
-        </div>
+        {/* RC NARBONNE */}
+        <ScrollReveal direction="left">
+          <div className="relative rounded-2xl overflow-hidden shadow-xl">
+            <img
+              src="https://images.unsplash.com/photo-1727334291228-188f30b43f1f?auto=format&fit=crop&w=1920&q=80"
+              alt="Partenaire RC Narbonne - Rugby"
+              className="w-full h-72 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
 
-        {/* Narbonne Volley */}
-        <div>
-          <h3 className="text-xl font-semibold mb-2 text-accent">
-            Narbonne Volley
-          </h3>
-          <a
-            href="https://www.narbonnevolley.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-accent hover:text-accent/80 transition-colors text-sm"
-          >
-            Site officiel Narbonne Volley
-            <ExternalLink className="w-4 h-4" />
-          </a>
-        </div>
+            <div className="absolute bottom-4 left-4">
+              <span className="inline-block bg-accent text-white px-4 py-2 rounded-lg text-sm font-medium">
+                🏉 RC Narbonne
+              </span>
+
+              <a
+                href="https://www.rcnarbonne.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block mt-2 text-xs text-white/80 hover:text-white transition"
+              >
+                Site officiel →
+              </a>
+            </div>
+          </div>
+        </ScrollReveal>
+
+        {/* NARBONNE VOLLEY */}
+        <ScrollReveal direction="right">
+          <div className="relative rounded-2xl overflow-hidden shadow-xl">
+            <img
+              src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1920&q=80"
+              alt="Partenaire Narbonne Volley - Volley-ball"
+              className="w-full h-72 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+
+            <div className="absolute bottom-4 left-4">
+              <span className="inline-block bg-accent text-white px-4 py-2 rounded-lg text-sm font-medium">
+                🏐 Narbonne Volley
+              </span>
+
+              <a
+                href="https://www.narbonnevolley.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block mt-2 text-xs text-white/80 hover:text-white transition"
+              >
+                Site officiel →
+              </a>
+            </div>
+          </div>
+        </ScrollReveal>
+
       </div>
     </ScrollReveal>
   </div>
