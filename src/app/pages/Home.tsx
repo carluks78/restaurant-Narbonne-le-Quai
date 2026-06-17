@@ -449,7 +449,7 @@ export function Home() {
               <span className="w-1.5 h-1.5 rounded-full bg-accent" />
             </div>
             <p className="text-sm md:text-base text-white/60 mb-8 md:mb-10 max-w-xl mx-auto">
-              Cuisine Méditerranéenne · Terrasse Canal de la Robine · Partenaire RC Narbonne<br />
+              Cuisine Méditerranéenne · Terrasse Canal de la Robine · Partenaire RC Narbonne, Partenaire Association Narbonne Volley<br />
               <a href="tel:0468906242" className="text-accent hover:text-accent/80 transition-colors">
                 04 68 90 62 42
               </a>
@@ -459,7 +459,7 @@ export function Home() {
                 to="/reservation"
                 className="inline-flex items-center justify-center gap-2 bg-accent text-white px-10 md:px-14 py-4 text-sm md:text-base tracking-wide hover:bg-accent/90 transition-all hover:scale-105 rounded-full shadow-xl shadow-accent/30"
               >
-                Réserver maintenant
+                Réserver maintenant en ligne
               </Link>
               <Link
                 to="/events"
