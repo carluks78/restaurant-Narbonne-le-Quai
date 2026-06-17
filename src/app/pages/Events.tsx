@@ -28,35 +28,6 @@ const faqs = [
   },
 ];
 
-const upcomingMatches = [
-  {
-    competition: "Pro D2",
-    home: "RC Narbonne",
-    away: "Brive",
-    date: "Samedi",
-    time: "19:00",
-    badge: "🏉 Rugby",
-  },
-  {
-    competition: "Ligue 1",
-    home: "Paris SG",
-    away: "Marseille",
-    date: "Dimanche",
-    time: "21:00",
-    badge: "⚽ Football",
-  },
-  {
-    competition: "Champions Cup",
-    home: "Toulouse",
-    away: "Leinster",
-    date: "Samedi +1",
-    time: "16:00",
-    badge: "🏉 Rugby",
-  },
-];
-
-export function Events() {
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
     <>
