@@ -95,7 +95,7 @@ export function Events() {
               <ScrollReveal direction="right">
                 <div className="relative rounded-2xl overflow-hidden shadow-xl">
                   <img
-                    src="https://narbonnevolley.com/wp-content/uploads/2024/10/LogoCenturions_Footer.svg"
+                    src="https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/533205668_732388962939264_7098669052218727807_n.jpg?stp=dst-jpg_tt6&cstp=mx1068x430&ctp=s1068x430&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=ahI8Id7AmYoQ7kNvwGqjjls&_nc_oc=Adp5WYXExxWPVkCmLwgd_mRtR62Hc-Slg-zq-v3k6lw5x11q3wh66DTtjceIcSxOzwC2_j5oUbH8ZQzY10CEblwy&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=rxr9mcbmgfNmxwxEAOyBKg&_nc_ss=7b2a8&oh=00_Af8R7SlUrgViX4QDi-z7oMU5_64J3xT40yueZFIcGiVOvQ&oe=6A38446A"
                     alt="Narbonne Volley"
                     className="w-full h-72 object-cover"
                   />
