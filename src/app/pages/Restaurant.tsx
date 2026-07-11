@@ -221,16 +221,38 @@ export function Restaurant() {
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
-              <ScrollReveal direction="left">
-                <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
-                  <ImageWithFallback
-                    src={cathedralImage}
-                    alt="Terrasse restaurant Le Quai Narbonne vue cathédrale"
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-              </ScrollReveal>
-            </div>
+  <ScrollReveal direction="left">
+    <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+      <ImageWithFallback
+        src={cathedralImage}
+        alt="Terrasse restaurant Le Quai Narbonne vue cathédrale"
+        className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+      />
+    </div>
+  </ScrollReveal>
+
+  <ScrollReveal direction="right">
+    <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+      <ImageWithFallback
+        src={terr1Image}
+        alt="Terrasse du restaurant Le Quai"
+        className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+      />
+    </div>
+  </ScrollReveal>
+</div>
+
+<div className="grid sm:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
+  <ScrollReveal direction="left">
+    <div className="rounded-2xl overflow-hidden shadow-lg h-64 md:h-80">
+      <ImageWithFallback
+        src={terr2Image}
+        alt="Vue de la terrasse du restaurant Le Quai"
+        className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+      />
+    </div>
+  </ScrollReveal>
+</div>
 
             <div className="grid sm:grid-cols-2 gap-4 md:gap-6">
               <ScrollReveal direction="left">
