@@ -21,6 +21,16 @@ export function Reservation() {
 ) => {
   e.preventDefault();
 
+  const reservationDate = new Date(formData.date);
+const day = reservationDate.getDay(); // 0 = dimanche, 3 = mercredi
+
+if (day === 3) {
+  toast.error(
+    "Le restaurant est fermé tous les mercredis. Merci de choisir une autre date."
+  );
+  return;
+}
+
   const message = `Bonjour, je souhaite réserver une table au Restaurant Le Quai.
 
 Nom : ${formData.name}
