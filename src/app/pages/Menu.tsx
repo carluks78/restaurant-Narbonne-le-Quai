@@ -460,7 +460,7 @@ export function Menu() {
                       <h3 className="font-serif text-base text-primary">{planche.label}</h3>
                     </div>
                     <span className="text-2xl font-serif text-accent">{planche.price}</span>
-                    <p className="text-xs text-muted-foreground mt-2">Charcuterie, fromages, légumes marinés</p>
+                    <p className="text-xs text-muted-foreground mt-2">Charcuterie, fromages, tapenade, pan con tomate</p>
                   </div>
                 ))}
               </div>
