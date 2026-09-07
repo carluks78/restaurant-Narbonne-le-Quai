@@ -120,7 +120,7 @@ export function Contact() {
                     title: "Email",
                     content: (
                       <a href="mailto:contact@lequai-narbonne.fr" className="text-sm md:text-base text-accent hover:text-accent/80">
-                        contact@lequai-narbonne.fr
+                        riviere2212.@gmail.com
                       </a>
                     ),
                   },
@@ -131,7 +131,7 @@ export function Contact() {
                       <div className="text-sm md:text-base text-muted-foreground">
                         <p><strong>Lundi — Samdei</strong></p>
                         <p className="text-base md:text-lg font-medium text-accent mt-1">09:30 — 14:00, Mercredi - Fermé, Dimanche 10:00 - 14:00, Service du soir fermé le dimanche</p>
-                        <p className="text-xs md:text-sm mt-2">Service continu · Ouvert 7j/7</p>
+                        <p className="text-xs md:text-sm mt-2"></p>
                       </div>
                     ),
                   },
@@ -165,10 +165,11 @@ export function Contact() {
                   <ul className="space-y-2 text-xs md:text-sm text-muted-foreground">
                     {[
                       "Terrasse vue sur la Cathédrale",
+                      "Salle climatisée",
                       "Accès handicapé PMR",
                       "Parking public à côté",
                       "Options végétariennes &amp; informations allergènes",
-                      "Carte bancaire &amp; espèces acceptées; Chèques Vacances et Ticket restaurant en papier et en dématérialiser;  ",
+                      "Carte bancaire &amp; espèces acceptées; Chèques Vacances accepté en papier;  ",
                       "Wi-Fi gratuit pour les clients",
                       "Diffusion matchs rugby RC Narbonne 🏉",
                     ].map((item, i) => (
