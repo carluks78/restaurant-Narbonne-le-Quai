@@ -250,7 +250,7 @@ export function VisiterNarbonne() {
                   {
                     emoji: "📅",
                     title: "Meilleure période",
-                    text: "Le printemps et l'automne offrent un climat idéal. L'été est parfait pour les plages. En hiver, découvrez Narbonne en toute tranquillité — notre terrasse chauffée vous attend.",
+                    text: "Le printemps et l'automne offrent un climat idéal. L'été est parfait pour les plages. En hiver, découvrez Narbonne en toute tranquillité.",
                   },
                   {
                     emoji: "🚗",
