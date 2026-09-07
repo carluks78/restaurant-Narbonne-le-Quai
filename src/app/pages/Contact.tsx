@@ -169,7 +169,7 @@ export function Contact() {
                       "Accès handicapé PMR",
                       "Parking public à côté",
                       "Options végétariennes &amp; informations allergènes",
-                      "Carte bancaire &amp; espèces acceptées; Chèques Vacances accepté en papier ou dématerialisé; Ticket restaurant accepté en papier ou dématerialisé;",
+                      "Carte bancaire &amp; espèces acceptées; Chèques Vacances accepté en papier ou dématerialisé; Ticket restaurant accepté en carte uniquement ;",
                       "Wi-Fi gratuit pour les clients",
                       "Diffusion matchs rugby RC Narbonne 🏉",
                     ].map((item, i) => (
