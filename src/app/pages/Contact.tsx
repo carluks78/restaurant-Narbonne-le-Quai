@@ -129,7 +129,7 @@ export function Contact() {
                     title: "Horaires",
                     content: (
                       <div className="text-sm md:text-base text-muted-foreground">
-                        <p><strong>Lundi — Samdei</strong></p>
+                        <p><strong>Lundi — Samedi</strong></p>
                         <p className="text-base md:text-lg font-medium text-accent mt-1">09:30 — 14:00, Mercredi - Fermé, Dimanche 10:00 - 14:00, Service du soir fermé le dimanche</p>
                         <p className="text-xs md:text-sm mt-2"></p>
                       </div>
